@@ -24,7 +24,7 @@ export const Navbar = () => {
     <nav className="navbar">
       <div className="logo-container">
         <NavLink to="/" className="logo-link">
-          Luxuria
+          buzzBUY.
         </NavLink>
       </div>
       <ul className="navbar-nav">

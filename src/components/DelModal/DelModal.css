@@ -1,0 +1,39 @@
+.del-modal-layout {
+  position: fixed;
+  left: 34%;
+  top: 40%;
+  border: 1px solid;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  font-size: larger;
+  height: 10rem;
+  width: 30%;
+  z-index: 2;
+  background-color: rgb(238, 238, 238);
+  justify-content: space-between;
+}
+.del-modal-btn {
+  align-self: flex-end;
+}
+.del-modal-yes-btn {
+  margin-left: 10px;
+  color: red;
+}
+.del-modal-no-btn {
+  color: green;
+}
+.del-modal-yes-btn,
+.del-modal-no-btn {
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  font-size: 1.5rem;
+  padding: 4px 8px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  cursor: pointer;
+  font-size: 1rem;
+}

@@ -1,0 +1,14 @@
+.bestseller-header {
+    margin: 50px 0 30px 30px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+  }
+  
+  .bestseller-container {
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* justify-content: space-evenly; */
+  }

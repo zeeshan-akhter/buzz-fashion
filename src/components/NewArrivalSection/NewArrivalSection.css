@@ -1,0 +1,15 @@
+.newarrival-header {
+    margin: 60px 0 30px 30px;
+    letter-spacing: 2.5px;
+    text-transform: uppercase;
+  }
+  .margin-top {
+    margin-top: 75px;
+  }
+  .newarrival-container {
+    width: 100%;
+    /* border: 1px solid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }

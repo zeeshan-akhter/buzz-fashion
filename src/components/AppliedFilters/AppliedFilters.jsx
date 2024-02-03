@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import "./AppliedFilters.css";
-import { FilterContext } from "../context/FilterContext";
+import { FilterContext } from "../../context/Filter/FilterContext";
 
 export const AppliedFilters = ({ filterArr, type }) => {
   const { dispatchFilter } = useContext(FilterContext);
