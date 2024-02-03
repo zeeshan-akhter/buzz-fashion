@@ -1,0 +1,79 @@
+.navbar {
+  background-color: #f8f8f8;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 30px 20px 30px;
+  position: sticky;
+  /* width: 96%; */
+  top: 0px;
+  z-index: 3;
+  overflow: hidden;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 4px 8px;
+}
+
+.logo-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-item {
+  margin-right: 25px;
+}
+.nav-item-pointer {
+  cursor: pointer;
+}
+.nav-item-hoverles {
+  margin-right: 25px;
+}
+.nav-item:hover {
+  border-bottom: 1px solid;
+}
+
+.nav-link {
+  color: #333;
+  display: flex;
+
+  align-items: center;
+  text-decoration: none;
+}
+
+.navlink-active {
+  font-weight: bold;
+}
+
+.link-text {
+  margin-left: 5px;
+  font-size: 1.2rem;
+}
+
+.wishlist-count,
+.cart-count {
+  position: relative;
+  bottom: 12px;
+  background: black;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  padding: 8px;
+  color: white;
+}
+
+/* FontAwesome icons */
+.fas {
+  margin-right: 5px;
+}
