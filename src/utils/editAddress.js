@@ -1,5 +1,5 @@
 import { useContext, useState } from "react";
-import { DataContext } from "../../context/Data/DataContext";
+import { DataContext } from "../context/Data/DataContext";
 import { failToastMsg } from "../components/ProductCard";
 
 export const EditAddress = ({ editTodoId }) => {
