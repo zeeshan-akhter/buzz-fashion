@@ -1,0 +1,64 @@
+.productlist-container-layout {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+.productlist-filter {
+  padding-right: 10px;
+  margin-top: 20px;
+  margin-left: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  flex-basis: 15%;
+  height: 85vh;
+  overflow: scroll;
+}
+.hide-productlist-filter {
+  display: none;
+}
+.productlist-container {
+  flex-basis: 82%;
+}
+.productlist-header {
+  margin: 20px 0 20px 20px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+}
+.productlist-products {
+  height: 73vh;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card-trending-tag {
+  position: absolute;
+  bottom: 330px;
+  background-color: white;
+  left: -11px;
+  font-size: 0.9rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding: 3px 4px;
+  font-weight: 600;
+}
+.price-slider-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.responsive-filter-btn {
+  position: absolute;
+  bottom: 1.5rem;
+  right: 1.5rem;
+  display: inline-block;
+  z-index: 99;
+  color: black;
+  font-size: 2rem;
+  background-color: rgba(0, 0, 0, 0.24);
+  border-radius: 10px;
+  padding: 0.5rem;
+  border: 1px solid;
+  cursor: pointer;
+}
