@@ -1,13 +1,13 @@
 import { useContext } from "react";
-import { BrandFilters } from "../BrandFilters";
-import { CategoryFilters } from "../CategoryFilters";
+import { BrandFilters } from "../BrandFilters/BrandFilters";
+import { CategoryFilters } from "../CategoryFilters/CategoryFilters";
 import "./Filters.css";
-import { PriceFilters } from "../PriceFilters";
-import { RatingFilters } from "../RatingFilters";
-import { SizeFilters } from "../SizeFilters";
-import { TypeFilters } from "../TypeFilters";
-import { FilterContext } from "../../context/FilterContext";
-import { DataContext } from "../../context/DataContext";
+import { PriceFilters } from "../PriceFilters/PriceFilters";
+import { RatingFilters } from "../RatingFilters/RatingFilters";
+import { SizeFilters } from "../SizeFilters/SizeFilters";
+import { TypeFilters } from "../TypeFilters/TypeFilters";
+import { FilterContext } from "../../context/Filter/FilterContext";
+import { DataContext } from "../../context/Data/DataContext";
 
 export const Filters = () => {
   const { filterState, dispatchFilter } = useContext(FilterContext);

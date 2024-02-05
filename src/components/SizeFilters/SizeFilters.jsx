@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { DataContext } from "../../context/DataContext";
-import { CheckboxCard } from "./CheckboxCard";
-import { FilterContext } from "../../context/FilterContext";
+import { DataContext } from "../../context/Data/DataContext";
+import { CheckboxCard } from "../CheckboxCard/CheckboxCard";
+import { FilterContext } from "../../context/Filter/FilterContext";
 
 export const SizeFilters = () => {
   const { dataState } = useContext(DataContext);

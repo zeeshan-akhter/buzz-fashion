@@ -1,18 +1,18 @@
 import { useContext, useState } from "react";
-import { DataContext } from "../context/DataContext";
+import { DataContext } from "../../context/Data/DataContext";
 import "./CartItemsRender.css";
-import { Button } from "./Button";
-import { removeFromCartHandler } from "../utils/removeFromCartHandler";
-import { handleQuantityChangeCart } from "../utils/handleQuantityChangeCart";
+import { Button } from "../Button/Button";
+import { removeFromCartHandler } from "../../utils/removeFromCartHandler";
+import { handleQuantityChangeCart } from "../../utils/handleQuantityChangeCart";
 import {
   addToWishlistHandler,
   isItemPresentInWishlist,
-} from "../utils/addToWishlistHandler";
+} from "../../utils/addToWishlistHandler";
 import { useNavigate } from "react-router";
-import { successToastMsg } from "./ProductCard";
-import { DelModal } from "./DelModal";
-import { initialDelModal } from "../utils/initialDelModal";
-import { clearCart } from "../utils/clearCart";
+import { successToastMsg } from "../ProductCard/ProductCard";
+import { DelModal } from "../DelModal/DelModal";
+import { initialDelModal } from "../../utils/initialDelModal";
+import { clearCart } from "../../utils/clearCart";
 
 export const CartItemsRender = () => {
   const { dataState, dispatchData } = useContext(DataContext);

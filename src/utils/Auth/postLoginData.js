@@ -1,5 +1,5 @@
 import axios from "axios";
-import { failToastMsg } from "../../components/ProductCard";
+import { failToastMsg } from "../../components/ProductCard/ProductCard";
 
 export const postLoginData = async (loginData) => {
   if (loginData.hasOwnProperty("err")) {

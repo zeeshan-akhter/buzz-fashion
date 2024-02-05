@@ -1,5 +1,5 @@
 import { useContext } from "react";
-import { FilterContext } from "../../context/FilterContext";
+import { FilterContext } from "../../context/Filter/FilterContext";
 
 export const CheckboxCard = ({ data, filterArr }) => {
   const { dispatchFilter } = useContext(FilterContext);

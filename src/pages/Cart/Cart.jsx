@@ -1,12 +1,12 @@
 import { useContext, useEffect } from "react";
-import { CartItemsRender } from "../components/CartItemsRender";
+import { CartItemsRender } from "../../components/CartItemsRender/CartItemsRender";
 import "./Cart.css";
-import { DataContext } from "../../context/DataContext";
-import { CartDetails } from "../../components/CartDetails";
-import { Button } from "../../components/Button";
+import { DataContext } from "../../context/Data/DataContext";
+import { CartDetails } from "../../components/CartDetails/CartDetails";
+import { Button } from "../../components/Button/Button";
 import { useNavigate } from "react-router";
 import { clearCart } from "../../utils/clearCart";
-import { successToastMsg } from "../../components/ProductCard";
+import { successToastMsg } from "../../components/ProductCard/ProductCard";
 
 export const totalCartPrice = (dataState) =>
   dataState?.cart?.reduce(

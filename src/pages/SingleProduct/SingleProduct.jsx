@@ -2,15 +2,15 @@ import { useParams } from "react-router";
 import { getSingleProduct } from "../../utils/getSingleProduct";
 import { useContext, useEffect, useState } from "react";
 import "./SingleProduct.css";
-import { SingleProductImages } from "../../components/SingleProductImages";
-import { Button } from "../../components/Button";
+import { SingleProductImages } from "../../components/SingleProductImages/SingleProductImages";
+import { Button } from "../../components/Button/Button";
 import { PropagateLoader } from "react-spinners";
 import { AuthContext } from "../../context/Auth/AuthContext";
 import {
   addToCartHandler,
   isItemPresentInCart,
 } from "../../utils/addToCartHandler";
-import { DataContext } from "../../context/DataContext";
+import { DataContext } from "../../context/Data/DataContext";
 import { useNavigate } from "react-router-dom";
 import {
   addToWishlistHandler,
@@ -18,7 +18,10 @@ import {
 } from "../../utils/addToWishlistHandler";
 import { removeFromWishlistHandler } from "../../utils/removeFromWishlistHandler";
 import { ToastContainer } from "react-toastify";
-import { failToastMsg, successToastMsg } from "../../components/ProductCard";
+import {
+  failToastMsg,
+  successToastMsg,
+} from "../../components/ProductCard/ProductCard";
 
 export const SingleProduct = () => {
   const [singleProduct, setSingleProduct] = useState({});

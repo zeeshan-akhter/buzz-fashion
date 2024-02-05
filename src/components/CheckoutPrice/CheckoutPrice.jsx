@@ -1,12 +1,12 @@
 import { useContext } from "react";
-import { DataContext } from "../../context/DataContext";
+import { DataContext } from "../../context/Data/DataContext";
 import "./CheckoutPrice.css";
-import { discountedAmount, totalCartPrice } from "../pages/Cart";
-import { Button } from "./Button";
-import { failToastMsg, successToastMsg } from "./ProductCard";
-import { clearCart } from "../utils/clearCart";
+import { discountedAmount, totalCartPrice } from "../../pages/Cart/Cart";
+import { Button } from "../Button/Button";
+import { failToastMsg, successToastMsg } from "../ProductCard/ProductCard";
+import { clearCart } from "../../utils/clearCart";
 import { useNavigate } from "react-router";
-import { orderId } from "../utils/orderId";
+import { orderId } from "../../utils/orderId";
 import { AuthContext } from "../../context/Auth/AuthContext";
 import dayjs from "dayjs";
 
@@ -43,11 +43,19 @@ export const CheckoutPrice = ({ selectedAdd }) => {
       return;
     }
     const options = {
-      key: "rzp_test_inOiRZzQS21nfX",
+      key: "rzp_test_Sc3qzAwjwIX2mb",
       amount: Number(totalCartPrice(dataState)) * 100,
       currency: "INR",
-      name: "LUXURIA",
+      name: "BUZZ BUY",
       description: "Thank you for shopping with us",
+      checkout: {
+        method:{
+            netbanking:1,
+            card:1,
+            upi:1,
+            wallet:1
+        }
+      },
       handler: function (response) {
         const orderHistoryObj = {
           user: authState?.userDetails?.email,
@@ -70,7 +78,7 @@ export const CheckoutPrice = ({ selectedAdd }) => {
           payload: orderHistoryObj,
         });
         successToastMsg(
-          `Payment of Rs. ${totalCartPrice(dataState)} is Succesfull`
+          `Payment of Rs. ${totalCartPrice(dataState)} is Successfull`
         );
         clearCart(dispatchData, dataState);
         navigate("/success");

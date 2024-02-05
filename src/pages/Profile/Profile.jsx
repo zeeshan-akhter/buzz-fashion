@@ -1,13 +1,13 @@
 import { useContext, useState, useEffect } from "react";
 import "./Profile.css";
 import { AuthContext } from "../../context/Auth/AuthContext";
-import { Button } from "../../components/Button";
-import { DataContext } from "../../context/DataContext";
-import { AddressForm } from "../utils/AddressForm";
-import { EditAddress } from "../utils/EditAddresss";
-import { successToastMsg } from "../../components/ProductCard";
-import { OrderHistory } from "../../components/OrderHistory";
-import { UserProfile } from "../../components/UserProfile";
+import { Button } from "../../components/Button/Button";
+import { DataContext } from "../../context/Data/DataContext";
+import { AddressForm } from "../../utils/AddressForm/AddressForm";
+import { EditAddress } from "../../utils/EditAddress";
+import { successToastMsg } from "../../components/ProductCard/ProductCard";
+import { OrderHistory } from "../../components/OrderHistory/OrderHistory";
+import { UserProfile } from "../../components/UserProfile/UserProfile";
 
 export const Profile = () => {
   const { authState, dispatchAuth } = useContext(AuthContext);

@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { DataContext } from "../../context/DataContext";
-import { FilterContext } from "../../context/FilterContext";
+import { DataContext } from "../../context/Data/DataContext";
+import { FilterContext } from "../../context/Filter/FilterContext";
 
 export const CategoryFilters = () => {
   const { dataState } = useContext(DataContext);

@@ -1,7 +1,7 @@
 import { useContext, useState } from "react";
 import { DataContext } from "../../context/Data/DataContext";
 import "./AddressForm.css";
-import { failToastMsg, successToastMsg } from "../../components/ProductCard";
+import { failToastMsg, successToastMsg } from "../../components/ProductCard/ProductCard";
 
 export const AddressForm = ({ setAddAddress }) => {
   const { dispatchData } = useContext(DataContext);

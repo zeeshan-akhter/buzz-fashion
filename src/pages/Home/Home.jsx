@@ -1,12 +1,12 @@
 import { useContext, useEffect } from "react";
-import { BestSellerSection } from "../../components/BestSellerSection";
-import { GenderSection } from "../../components/GenderSection";
-import { ImageCarousel } from "../../ImageCarousel";
-import { NewArrivalSection } from "../../components/NewArrivalSection";
-import { DataContext } from "../../context/DataContext";
-import { FilterContext } from "../../context/FilterContext";
-import { TopBrands } from "../../components/TopBrands";
-import { Footer } from "../../components/Footer";
+import { BestSellerSection } from "../../components/BestSellerSection/BestSellerSection";
+import { GenderSection } from "../../components/GenderSection/GenderSection";
+import { ImageCarousel } from "../../components/ImageCarousel/ImageCarousel";
+import { NewArrivalSection } from "../../components/NewArrivalSection/NewArrivalSection";
+import { DataContext } from "../../context/Data/DataContext";
+import { FilterContext } from "../../context/Filter/FilterContext";
+import { TopBrands } from "../../components/TopBrands/TopBrands";
+import { Footer } from "../../components/Footer/Footer";
 
 export const Home = () => {
   const { dispatchData } = useContext(DataContext);

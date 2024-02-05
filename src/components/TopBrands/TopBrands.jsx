@@ -1,6 +1,6 @@
 import { useContext } from "react";
-import { FilterContext } from "../../context/FilterContext";
-import { brandImgArr } from "../utils/brandImgArr";
+import { FilterContext } from "../../context/Filter/FilterContext";
+import { brandImgArr } from "../../utils/brandImgArr";
 import "./TopBrands.css";
 import { useNavigate } from "react-router";
 

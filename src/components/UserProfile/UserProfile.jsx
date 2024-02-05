@@ -1,8 +1,8 @@
 import { useContext } from "react";
 import { AuthContext } from "../../context/Auth/AuthContext";
-import { Button } from "./Button";
-import { DataContext } from "../../context/DataContext";
-import { successToastMsg } from "./ProductCard";
+import { Button } from "../Button/Button";
+import { DataContext } from "../../context/Data/DataContext";
+import { successToastMsg } from "../ProductCard/ProductCard";
 
 export const UserProfile = () => {
   const { authState, dispatchAuth } = useContext(AuthContext);

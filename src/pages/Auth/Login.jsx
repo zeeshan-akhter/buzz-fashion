@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 import "./Login.css";
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../context/Auth/AuthContext";
-import { DataContext } from "../../context/DataContext";
+import { DataContext } from "../../context/Data/DataContext";
 
 export const Login = () => {
   const [login, setLogin] = useState({
@@ -74,7 +74,7 @@ export const Login = () => {
               <input
                 type="email"
                 name="email"
-                placeholder="aritrachowdhury@gmail.com"
+                placeholder="zeeshanakhter@gmail.com"
                 className="login-container-input email-container-input"
                 onChange={handleChangeInput}
               />

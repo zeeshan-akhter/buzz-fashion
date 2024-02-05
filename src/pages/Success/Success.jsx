@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import "./Success.css";
-import { DataContext } from "../../context/DataContext";
-import { Button } from "../../components/Button";
+import { DataContext } from "../../context/Data/DataContext";
+import { Button } from "../../components/Button/Button";
 import { useNavigate } from "react-router";
 
 export const Success = () => {

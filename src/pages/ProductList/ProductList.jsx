@@ -1,13 +1,13 @@
 import { useContext } from "react";
 import "./ProductList.css";
-import { DataContext } from "../../context/DataContext";
-import { ProductCard } from "../../components/ProductCard";
-import { Filters } from "../../components/Filters";
-import { FilterContext } from "../../context/FilterContext";
+import { DataContext } from "../../context/Data/DataContext";
+import { ProductCard } from "../../components/ProductCard/ProductCard";
+import { Filters } from "../../components/Filters/Filters";
+import { FilterContext } from "../../context/Filter/FilterContext";
 import { PropagateLoader } from "react-spinners";
-import { filteredArray } from "../utils/filteredArray";
-import { AppliedFilters } from "../../components/AppliedFilters";
-import { SortOptions } from "../../components/SortOptions";
+import { filteredArray } from "../../utils/filteredArray";
+import { AppliedFilters } from "../../components/AppliedFilters/AppliedFilters";
+import { SortOptions } from "../../components/SortOptions/SortOptions";
 
 export const ProductList = () => {
   const { dataState } = useContext(DataContext);

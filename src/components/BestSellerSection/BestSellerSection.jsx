@@ -1,7 +1,7 @@
 import { useContext } from "react";
 import { DataContext } from "../../context/Data/DataContext";
 import "./BestSellerSection.css";
-import { ProductCard } from "./ProductCard";
+import { ProductCard } from "../ProductCard/ProductCard";
 
 export const BestSellerSection = () => {
   const { dataState } = useContext(DataContext);

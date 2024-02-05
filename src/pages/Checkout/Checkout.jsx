@@ -1,10 +1,10 @@
 import { useNavigate } from "react-router";
-import { AddressRender } from "../../components/AddressRender";
-import { Button } from "../../components/Button";
-import { CheckoutPrice } from "../../components/CheckoutPrice";
+import { AddressRender } from "../../components/AddressRender/AddressRender";
+import { Button } from "../../components/Button/Button";
+import { CheckoutPrice } from "../../components/CheckoutPrice/CheckoutPrice";
 import "./Checkout.css";
 import { useContext, useState } from "react";
-import { DataContext } from "../../context/DataContext";
+import { DataContext } from "../../context/Data/DataContext";
 
 export const Checkout = () => {
   const navigate = useNavigate();

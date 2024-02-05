@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
-import { DataContext } from "../../context/DataContext";
+import { DataContext } from "../../context/Data/DataContext";
 import "./Wishlist.css";
-import { ProductCard } from "../../components/ProductCard";
+import { ProductCard } from "../../components/ProductCard/ProductCard";
 
 export const Wishlist = () => {
   const { dataState, dispatchData } = useContext(DataContext);

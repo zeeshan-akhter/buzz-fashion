@@ -1,6 +1,6 @@
 import { useContext, useState } from "react";
 import { DataContext } from "../context/Data/DataContext";
-import { failToastMsg } from "../components/ProductCard";
+import { failToastMsg } from "../components/ProductCard/ProductCard";
 
 export const EditAddress = ({ editTodoId }) => {
   const { dataState, dispatchData } = useContext(DataContext);

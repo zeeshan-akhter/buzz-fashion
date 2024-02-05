@@ -1,7 +1,7 @@
 import { useContext } from "react";
-import { DataContext } from "../../context/DataContext";
+import { DataContext } from "../../context/Data/DataContext";
 import "./NewArrivalSection.css";
-import { ProductCard } from "./ProductCard";
+import { ProductCard } from "../ProductCard/ProductCard";
 import { PropagateLoader } from "react-spinners";
 
 export const NewArrivalSection = () => {

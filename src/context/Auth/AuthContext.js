@@ -3,7 +3,7 @@ import { authReducer } from "../../reducer/AuthReducer";
 import { postSignupData } from "../../utils/Auth/postSignupData";
 import { postLoginData } from "../../utils/Auth/postLoginData";
 import { useNavigate } from "react-router";
-import { successToastMsg } from "../../components/ProductCard";
+import { successToastMsg } from "../../components/ProductCard/ProductCard";
 
 export const AuthContext = createContext();
 

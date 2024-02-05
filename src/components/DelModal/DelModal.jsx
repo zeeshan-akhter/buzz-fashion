@@ -1,7 +1,7 @@
 import "./DelModal.css";
-import { removeFromCartHandler } from "../utils/removeFromCartHandler";
-import { isItemPresentInCart } from "../utils/addToCartHandler";
-import { successToastMsg } from "./ProductCard";
+import { removeFromCartHandler } from "../../utils/removeFromCartHandler";
+import { isItemPresentInCart } from "../../utils/addToCartHandler";
+import { successToastMsg } from "../ProductCard/ProductCard";
 
 export const DelModal = ({
   id,

@@ -1,19 +1,19 @@
 import { NavLink, useNavigate } from "react-router-dom";
-import { Button } from "./Button";
+import { Button } from "../Button/Button";
 import "./ProductCard.css";
-import { FilterContext } from "../../context/FilterContext";
+import { FilterContext } from "../../context/Filter/FilterContext";
 import { useContext } from "react";
 import { AuthContext } from "../../context/Auth/AuthContext";
 import {
   addToCartHandler,
   isItemPresentInCart,
-} from "../utils/addToCartHandler";
-import { DataContext } from "../../context/DataContext";
+} from "../../utils/addToCartHandler";
+import { DataContext } from "../../context/Data/DataContext";
 import {
   addToWishlistHandler,
   isItemPresentInWishlist,
-} from "../utils/addToWishlistHandler";
-import { removeFromWishlistHandler } from "../utils/removeFromWishlistHandler";
+} from "../../utils/addToWishlistHandler";
+import { removeFromWishlistHandler } from "../../utils/removeFromWishlistHandler";
 import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
