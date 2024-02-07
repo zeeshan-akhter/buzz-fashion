@@ -59,7 +59,10 @@ export const Navbar = () => {
               navigate("/products");
             }}
           >
-            <i className="fas fa-magnifying-glass" style={{color: "white"}}></i>
+            <i
+              className="fas fa-magnifying-glass"
+              style={{ color: "white" }}
+            ></i>
             <span className="link-text">Search</span>
           </li>
         )}
@@ -124,7 +127,7 @@ export const Navbar = () => {
                     backgroundColor: "white",
                     color: "black",
                     padding: "4px 6px",
-                    borderRadius: "3px",
+                    borderRadius: "4px",
                     fontWeight: "600",
                     textTransform: "uppercase",
                     letterSpacing: "1.5px",

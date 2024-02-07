@@ -11,20 +11,20 @@ export const categories = [
     categoryName: "Men",
     description: "",
     thumbnail:
-      "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enIN/Images/Visual_nav_tiles_March_2023_Mobile_800x900px_1-MENS_DUAL_tcm209-1008384.jpg",
+      "https://img.freepik.com/free-photo/portrait-handsome-smiling-stylish-young-man-model-dressed-blue-shirt-clothes-fashion-man-posing_158538-4913.jpg?size=626&ext=jpg&ga=GA1.1.427923837.1689839926&semt=ais",
   },
   {
     _id: 2,
     categoryName: "Women",
     description: "",
     thumbnail:
-      "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enIN/Images/Visual_nav_tiles_March_2023_Mobile_800x900px_2-WOMENS_DUAL_tcm209-1008385.jpg",
+      "https://img.freepik.com/free-photo/portrait-young-happy-woman-studio_1303-13801.jpg?size=626&ext=jpg&ga=GA1.1.427923837.1689839926&semt=ais",
   },
   {
     _id: 3,
     categoryName: "Kids",
     description: "",
     thumbnail:
-      "https://brand.assets.adidas.com/image/upload/f_auto,q_auto,fl_lossy/if_w_gt_800,w_800/enIN/Images/Visual_nav_tiles_March_2023_Mobile_800x900px_3-KIDS_DUAL_tcm209-1008383.jpg",
+      "https://img.freepik.com/free-photo/happy-children-isolated-coral-pink-studio-background-looks-happy-cheerful-sincere-copyspace-childhood-education-emotions-concept_155003-35414.jpg?size=626&ext=jpg&ga=GA1.1.427923837.1689839926&semt=ais",
   },
 ];

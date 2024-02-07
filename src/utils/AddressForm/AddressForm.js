@@ -48,7 +48,7 @@ export const AddressForm = ({ setAddAddress }) => {
         <label className="address-form-container-label">
           Name
           <input
-            placeholder="John Doe"
+            placeholder="Faisal Akhter"
             className="address-form-container-input"
             type="text"
             required
@@ -60,7 +60,7 @@ export const AddressForm = ({ setAddAddress }) => {
         <label className="address-form-container-label">
           House Number
           <input
-            placeholder="2877 Arthur Avenue"
+            placeholder="55 / A"
             className="address-form-container-input"
             type="text"
             required
@@ -72,7 +72,7 @@ export const AddressForm = ({ setAddAddress }) => {
         <label className="address-form-container-label">
           Mobile Number
           <input
-            placeholder="+91-855-592-2564"
+            placeholder="+91-9876543210"
             className="address-form-container-input"
             type="tel"
             required
@@ -84,7 +84,7 @@ export const AddressForm = ({ setAddAddress }) => {
         <label className="address-form-container-label">
           Area
           <input
-            placeholder="Jamnagar"
+            placeholder="Civil lines"
             className="address-form-container-input"
             type="text"
             required
@@ -96,7 +96,7 @@ export const AddressForm = ({ setAddAddress }) => {
         <label className="address-form-container-label">
           City
           <input
-            placeholder="Freeport"
+            placeholder="Gaya"
             className="address-form-container-input"
             type="text"
             required
@@ -108,7 +108,7 @@ export const AddressForm = ({ setAddAddress }) => {
         <label className="address-form-container-label">
           Pincode
           <input
-            placeholder="566712"
+            placeholder="823005"
             className="address-form-container-input"
             type="number"
             required

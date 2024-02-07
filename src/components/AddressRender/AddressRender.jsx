@@ -4,7 +4,7 @@ import { DataContext } from "../../context/Data/DataContext";
 export const AddressRender = ({ selectedAdd, setSelectedAdd }) => {
   const { dataState } = useContext(DataContext);
   const addressCard = {
-    border: "1px solid black",
+    border: "1px solid #00A9FF",
     width: "80%",
     borderRadius: "5px",
     backgroundColor: "#f8f8f8",
@@ -46,7 +46,7 @@ export const AddressRender = ({ selectedAdd, setSelectedAdd }) => {
                     {houseNumber}, {area}, {city}
                   </p>
                   <p>Pincode: {pincode}</p>
-                  <p>Ph No. {mobileNumber}</p>
+                  <p>Phone: {mobileNumber}</p>
                 </label>
               </div>
             );

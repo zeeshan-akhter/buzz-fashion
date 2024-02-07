@@ -25,7 +25,7 @@ export const EditAddress = ({ editTodoId }) => {
         <label className="address-form-container-label">
           Name
           <input
-            placeholder="2877 Arthur Avenue"
+            placeholder="Faisal Akhter"
             className="address-form-container-input"
             type="text"
             required

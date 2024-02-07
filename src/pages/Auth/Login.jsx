@@ -34,8 +34,8 @@ export const Login = () => {
         err: "",
       }));
       loginUser({
-        email: "adarshbalika@gmail.com",
-        password: "adarshbalika",
+        email: "zeeshanakhter@gmail.com",
+        password: "zeeshan123",
       });
     } else {
       if (login?.email?.length > 0 && login?.password?.length > 0) {
