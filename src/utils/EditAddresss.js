@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { DataContext } from "../context/Data/DataContext";
 import { failToastMsg } from "../components/ProductCard/ProductCard";
 
-export const EditAddress = ({ editTodoId }) => {
+export const EditAddresss = ({ editTodoId }) => {
   const { dataState, dispatchData } = useContext(DataContext);
   const [editAddress, setEditAddress] = useState({
     id: editTodoId,

@@ -4,7 +4,7 @@ import { AuthContext } from "../../context/Auth/AuthContext";
 import { Button } from "../../components/Button/Button";
 import { DataContext } from "../../context/Data/DataContext";
 import { AddressForm } from "../../utils/AddressForm/AddressForm";
-import { EditAddress } from "../../utils/EditAddresss";
+import { EditAddresss } from "../../utils/EditAddresss";
 import { successToastMsg } from "../../components/ProductCard/ProductCard";
 import { OrderHistory } from "../../components/OrderHistory/OrderHistory";
 import { UserProfile } from "../../components/UserProfile/UserProfile";
@@ -139,7 +139,7 @@ export const Profile = () => {
                           <div key={id} className="address-section">
                             <div>
                               {isEdit && (
-                                <EditAddress
+                                <EditAddresss
                                   editTodoId={id}
                                   showAdd={showAdd}
                                 />
