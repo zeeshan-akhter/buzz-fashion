@@ -41,7 +41,7 @@ export const Footer = () => {
               Zeeshan Akhter
             </span>
           </span>
-          &copy; {new Date().getFullYear()} Luxuria
+          &copy; {new Date().getFullYear()} BUZZ FASHION
         </div>
       </footer>
     </>

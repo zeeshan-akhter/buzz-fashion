@@ -45,7 +45,7 @@ export const Profile = () => {
           <div className="profile-content">
             <h2
               style={{
-                backgroundColor: profileView?.userDetails && "black",
+                backgroundColor: profileView?.userDetails && "#00A9FF",
                 color: profileView?.userDetails && "white",
               }}
               className="profile-content-header"
@@ -61,7 +61,7 @@ export const Profile = () => {
             </h2>
             <h2
               style={{
-                backgroundColor: profileView?.userAddress && "black",
+                backgroundColor: profileView?.userAddress && "#00A9FF",
                 color: profileView?.userAddress && "white",
               }}
               className="profile-content-header"
@@ -77,7 +77,7 @@ export const Profile = () => {
             </h2>
             <h2
               style={{
-                backgroundColor: profileView?.orderHistory && "black",
+                backgroundColor: profileView?.orderHistory && "#00A9FF",
                 color: profileView?.orderHistory && "white",
               }}
               className="profile-content-header"

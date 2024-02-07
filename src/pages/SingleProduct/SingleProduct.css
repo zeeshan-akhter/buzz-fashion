@@ -24,7 +24,7 @@
   color: rgb(160, 160, 160);
 }
 .single-product-rating {
-  border: 1px solid;
+  border: 1px solid #00a9ff;
   width: fit-content;
   font-weight: bold;
   letter-spacing: 2px;
@@ -50,7 +50,7 @@
   padding: 9px 20px;
   margin: 30px 0;
   background: white;
-  color: black;
+  color: #00a9ff;
   font-weight: bolder;
   border-radius: 4px;
   font-size: 0.9rem;

@@ -53,7 +53,7 @@
   color: whitesmoke;
   padding: 4px;
   border-radius: 50%;
-  background: black;
+  background: #00A9FF;
   cursor: pointer;
 }
 .cart-item-remove-btn {

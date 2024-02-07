@@ -46,15 +46,15 @@ export const CheckoutPrice = ({ selectedAdd }) => {
       key: "rzp_test_Sc3qzAwjwIX2mb",
       amount: Number(totalCartPrice(dataState)) * 100,
       currency: "INR",
-      name: "BUZZ BUY",
+      name: "Zeeshan Akhter (BUZZ FASHION)",
       description: "Thank you for shopping with us",
       checkout: {
-        method:{
-            netbanking:1,
-            card:1,
-            upi:1,
-            wallet:1
-        }
+        method: {
+          netbanking: 1,
+          card: 1,
+          upi: 1,
+          wallet: 1,
+        },
       },
       handler: function (response) {
         const orderHistoryObj = {
@@ -84,7 +84,7 @@ export const CheckoutPrice = ({ selectedAdd }) => {
         navigate("/success");
       },
       theme: {
-        color: "#000000",
+        color: "#00A9FF",
       },
     };
 

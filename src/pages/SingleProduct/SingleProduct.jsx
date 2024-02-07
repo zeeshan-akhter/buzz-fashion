@@ -69,7 +69,10 @@ export const SingleProduct = () => {
             </div>
             <div className="single-product-rating">
               {singleProduct?.rating}
-              <i class="fas fa-star rating-star"></i>
+              <i
+                class="fas fa-star rating-star"
+                style={{ color: "orange" }}
+              ></i>
             </div>
             <div className="card-price single-product-price">
               <span className="new-price">
@@ -155,12 +158,18 @@ export const SingleProduct = () => {
               >
                 {isItemPresentInWishlist(dataState, singleProduct?.id) ? (
                   <span>
-                    <i class=" fas fa-heart single-product-heart-icon"></i>
+                    <i
+                      class=" fas fa-heart single-product-heart-icon"
+                      style={{ color: "red" }}
+                    ></i>
                     Wishlisted
                   </span>
                 ) : (
                   <span>
-                    <i className="fa-sharp fa-regular fa-heart single-product-heart-icon"></i>
+                    <i
+                      className="fa-sharp fa-regular fa-heart single-product-heart-icon"
+                      style={{ color: "black" }}
+                    ></i>
                     Wishlist
                   </span>
                 )}

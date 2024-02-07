@@ -24,7 +24,7 @@ export const Navbar = () => {
     <nav className="navbar">
       <div className="logo-container">
         <NavLink to="/" className="logo-link">
-          buzzBUY.
+          BUZZ FASHION.
         </NavLink>
       </div>
       <ul className="navbar-nav">
@@ -59,7 +59,7 @@ export const Navbar = () => {
               navigate("/products");
             }}
           >
-            <i className="fas fa-magnifying-glass"></i>
+            <i className="fas fa-magnifying-glass" style={{color: "white"}}></i>
             <span className="link-text">Search</span>
           </li>
         )}
@@ -121,8 +121,8 @@ export const Navbar = () => {
               {authState?.isLoggedin ? (
                 <span
                   style={{
-                    backgroundColor: "black",
-                    color: "white",
+                    backgroundColor: "white",
+                    color: "black",
                     padding: "4px 6px",
                     borderRadius: "3px",
                     fontWeight: "600",

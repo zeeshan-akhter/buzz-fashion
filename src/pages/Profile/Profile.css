@@ -66,6 +66,6 @@
   cursor: pointer;
 }
 .profile-content-header:hover {
-  background-color: black;
-  color: white;
+  background-color: #A0E9FF;
+  color: black;
 }

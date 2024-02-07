@@ -12,6 +12,7 @@ export const SortOptions = () => {
           fontSize: "1rem",
           cursor: "pointer",
           outline: "none",
+          borderColor: "#00A9FF"
         }}
         value={filterState?.sortPriceFilter}
         onChange={(e) => {

@@ -1,6 +1,7 @@
 .btn-style {
   padding: 8px 14px;
-  background: black;
+  border: solid #00A9FF;
+  background: #00A9FF;
   color: white;
   font-weight: bold;
   border-radius: 4px;
@@ -10,7 +11,7 @@
 .btn-style-secondary {
   padding: 7px 14px;
   background: white;
-  color: black;
+  color: #00A9FF;
   font-weight: bold;
   border-radius: 4px;
   font-size: 1rem;
@@ -18,12 +19,12 @@
 }
 .btn-style:hover {
   cursor: pointer;
-  background-color: whitesmoke;
+  background-color: #CDF5FD;
   color: black;
 }
 .btn-style-secondary:hover {
   cursor: pointer;
-  background-color: black;
+  background-color: #00A9FF;
   color: whitesmoke;
 }
 .signup-content-link {

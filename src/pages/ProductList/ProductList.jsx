@@ -8,6 +8,7 @@ import { PropagateLoader } from "react-spinners";
 import { filteredArray } from "../../utils/filteredArray";
 import { AppliedFilters } from "../../components/AppliedFilters/AppliedFilters";
 import { SortOptions } from "../../components/SortOptions/SortOptions";
+import { Footer } from "../../components/Footer/Footer";
 
 export const ProductList = () => {
   const { dataState } = useContext(DataContext);
@@ -81,6 +82,7 @@ export const ProductList = () => {
             </div>
           )}
         </div>
+        <Footer />
       </div>
     </>
   );

@@ -7,6 +7,7 @@ export const PriceFilters = () => {
     display: "flex",
     flexDirection: "column",
     flexWrap: "wrap",
+    color: "black"
   };
 
   const priceLabelStyle = {

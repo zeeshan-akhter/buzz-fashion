@@ -3,6 +3,7 @@ import "./Login.css";
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../context/Auth/AuthContext";
 import { DataContext } from "../../context/Data/DataContext";
+import { Footer } from "../../components/Footer/Footer";
 
 export const Login = () => {
   const [login, setLogin] = useState({
@@ -61,7 +62,7 @@ export const Login = () => {
       <div className="login-container-layout">
         <div className="login-container-image">
           <img
-            src="https://hips.hearstapps.com/hmg-prod/images/business-opening-with-open-sign-royalty-free-image-1573142427.jpg"
+            src="https://images.unsplash.com/photo-1535821768496-80f6b2bd573a?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             width="100%"
             height="100%"
           />
@@ -119,12 +120,13 @@ export const Login = () => {
             </button>
             <small style={{ marginTop: "8px" }}>
               Don't have an account?{" "}
-              <NavLink to="/signup" style={{ color: "black" }}>
+              <NavLink to="/signup" style={{ color: "#00A9FF" }}>
                 Sign Up
               </NavLink>
             </small>
           </form>
         </div>
+        <Footer />
       </div>
     </>
   );

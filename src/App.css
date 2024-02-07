@@ -6,7 +6,7 @@
 }
 *::selection {
   color: white;
-  background-color: black;
+  background-color: #00A9FF;
 }
 
 ::-webkit-scrollbar {
@@ -28,6 +28,6 @@
 
 input[type="checkbox"],
 input[type="radio"] {
-  accent-color: black;
+  accent-color: #00A9FF;
   cursor: pointer;
 }

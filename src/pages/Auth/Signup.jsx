@@ -3,6 +3,7 @@ import "./Signup.css";
 import { useContext, useEffect, useState } from "react";
 import { AuthContext } from "../../context/Auth/AuthContext";
 import { ToastContainer } from "react-toastify";
+import { Footer } from "../../components/Footer/Footer";
 
 export const Signup = () => {
   const { signupUser, authState } = useContext(AuthContext);
@@ -40,7 +41,7 @@ export const Signup = () => {
       <div className="signup-container-layout">
         <div className="signup-image-layout">
           <img
-            src="https://images.unsplash.com/photo-1495121605193-b116b5b9c5fe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80"
+            src="https://images.unsplash.com/photo-1627933540891-1fb6a397c89b?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             width="100%"
             height="100%"
           />
@@ -122,7 +123,7 @@ export const Signup = () => {
               <NavLink
                 to="/login"
                 style={{
-                  color: "black",
+                  color: "#00A9FF",
                   textDecoration: "underline",
                   textTransform: "capitalize",
                   letterSpacing: "1px",
@@ -133,6 +134,7 @@ export const Signup = () => {
             </small>
           </form>
         </main>
+        <Footer />
       </div>
       {/* <ToastContainer /> */}
     </>
