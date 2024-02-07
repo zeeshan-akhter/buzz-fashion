@@ -4,7 +4,7 @@ import { AuthContext } from "../../context/Auth/AuthContext";
 import { Button } from "../../components/Button/Button";
 import { DataContext } from "../../context/Data/DataContext";
 import { AddressForm } from "../../utils/AddressForm/AddressForm";
-import { EditAddress } from "../../utils/EditAddress";
+import { EditAddress } from "../../utils/EditAddresss";
 import { successToastMsg } from "../../components/ProductCard/ProductCard";
 import { OrderHistory } from "../../components/OrderHistory/OrderHistory";
 import { UserProfile } from "../../components/UserProfile/UserProfile";
