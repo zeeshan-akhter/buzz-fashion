@@ -9,7 +9,7 @@ export const GenderSection = () => {
   const { dispatchFilter } = useContext(FilterContext);
   return (
     <>
-      <h1 className="gender-header">Shopping for ?</h1>
+      <h1 className="gender-header">Featured categories</h1>
       <div className="gender-img-container">
         <div className="gender-img-container-inner">
           {dataState.categories &&
