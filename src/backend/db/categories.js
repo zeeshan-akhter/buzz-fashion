@@ -11,20 +11,20 @@ export const categories = [
     categoryName: "Men",
     description: "",
     thumbnail:
-      "https://img.freepik.com/premium-photo/3d-rendered-portrait-male-model-street-fashion-photography_1069963-29126.jpg?size=626&ext=jpg&ga=GA1.1.427923837.1689839926&semt=ais",
+      "https://img.freepik.com/free-photo/close-up-stylish-young-man-making-hand-frame-against-blue-wall_23-2148203010.jpg?size=626&ext=jpg&ga=GA1.1.427923837.1689839926&semt=ais",
   },
   {
     _id: 2,
     categoryName: "Women",
     description: "",
     thumbnail:
-      "https://img.freepik.com/free-photo/confident-young-woman-with-her-arms-crossed-looking-away_23-2148130373.jpg?size=626&ext=jpg&ga=GA1.1.427923837.1689839926&semt=ais",
+      "https://img.freepik.com/premium-photo/cheerful-happy-woman-enjoying-shopping-plain-sea-green-background_1057389-37441.jpg?size=626&ext=jpg&ga=GA1.1.427923837.1689839926&semt=ais",
   },
   {
     _id: 3,
     categoryName: "Kids",
     description: "",
     thumbnail:
-      "https://img.freepik.com/premium-photo/2_873925-141408.jpg?size=626&ext=jpg&ga=GA1.1.427923837.1689839926&semt=ais",
+      "https://img.freepik.com/free-photo/front-view-childrens-book-day-event_23-2148445709.jpg?size=626&ext=jpg&ga=GA1.1.427923837.1689839926&semt=ais",
   },
 ];
